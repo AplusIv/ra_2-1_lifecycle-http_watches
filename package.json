@@ -35,5 +35,9 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://aplusiv.github.io/ra_2-1_lifecycle-http_watches/"
+  "homepage": "https://aplusiv.github.io/ra_2-2_lifecycle-http_watches/",
+  "devDependencies": {
+    "dayjs": "^1.11.10",
+    "nanoid": "^5.0.4"
+  }
 }

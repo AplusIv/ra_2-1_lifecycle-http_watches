@@ -1,5 +1,85 @@
+.form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  min-width: 750px;
+  margin-bottom: 20px;;
+}
 
+.input {
+  display: block;
+  min-width: 330px;
+}
 
+.watches {
+  display: flex;
+  justify-content: space-around;
+}
+
+.watch {
+  position: relative;
+  box-sizing: border-box;
+  width: 30%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.watch-data {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.utc-0 {
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
+}
+
+.delete-watch {
+  position: absolute;
+  right: 3%;
+  top: 1%;
+  cursor: pointer;
+  color: red;
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 100px;
+}
+
+.arrow {
+  position: absolute;
+}
+.hour-arrow {
+  display: inline;
+  font-size: 80px;
+  line-height: 0;
+}
+
+.minute-arrow {
+  font-size: 100px;
+}
+
+.second-arrow {
+  font-size: 100px;
+  /* font-weight: 10; */
+}
+
+.center {
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  display: block;
+  font-size: 100px;
+  line-height: 0;
+  color:blueviolet;
+  transform: translate(13px, -8px);
+}
 /* .App {
   text-align: center;
 }
